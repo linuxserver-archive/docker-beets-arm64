@@ -23,9 +23,9 @@ RUN \
 	nano \
 	openjpeg \
 	py-gobject3 \
-	py-pip \
-	python \
-	py-unidecode \
+	py2-pip \
+	python2 \
+	py2-unidecode \
 	sqlite-libs \
 	tar \
 	wget && \
@@ -41,7 +41,7 @@ RUN \
 	libpng-dev \
 	make \
 	openjpeg-dev \
-	python-dev && \
+	python2-dev && \
 
 # compile mp3gain
  mkdir -p \
