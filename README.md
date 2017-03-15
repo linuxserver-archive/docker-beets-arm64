@@ -2,6 +2,8 @@
 [forumurl]: https://forum.linuxserver.io
 [ircurl]: https://www.linuxserver.io/irc/
 [podcasturl]: https://www.linuxserver.io/podcast/
+[appurl]: http://beets.io/
+[hub]: https://hub.docker.com/r/lsioarmhf/beets-aarch64/
 
 [![linuxserver.io](https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_medium.png)][linuxserverurl]
 
@@ -12,12 +14,10 @@ The [LinuxServer.io][linuxserverurl] team brings you another container release f
 
 # lsioarmhf/beets-aarch64
 [![](https://images.microbadger.com/badges/version/lsioarmhf/beets-aarch64.svg)](https://microbadger.com/images/lsioarmhf/beets-aarch64 "Get your own version badge on microbadger.com")[![](https://images.microbadger.com/badges/image/lsioarmhf/beets-aarch64.svg)](http://microbadger.com/images/lsioarmhf/beets-aarch64 "Get your own image badge on microbadger.com")[![Docker Pulls](https://img.shields.io/docker/pulls/lsioarmhf/beets-aarch64.svg)][hub][![Docker Stars](https://img.shields.io/docker/stars/lsioarmhf/beets-aarch64.svg)][hub][![Build Status](http://jenkins.linuxserver.io:8080/buildStatus/icon?job=Dockers/LinuxServer.io-arm64/lsioarm64-beets)](http://jenkins.linuxserver.io:8080/job/Dockers/job/LinuxServer.io-arm64/job/lsioarm64-beets/)
-[hub]: https://hub.docker.com/r/lsioarmhf/beets-aarch64/
 
-[Beets][beetsurl] is a music library manager and not, for the most part, a music player. It does include a simple player plugin and an experimental Web-based player, but it generally leaves actual sound-reproduction to specialized tools.
+[Beets][appurl] is a music library manager and not, for the most part, a music player. It does include a simple player plugin and an experimental Web-based player, but it generally leaves actual sound-reproduction to specialized tools.
 
-[![beets](https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/beets-icon.png)][beetsurl]
-[beetsurl]: http://beets.io/
+[![beets](https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/beets-icon.png)][appurl]
 
 ## Usage
 
@@ -67,7 +67,7 @@ To edit the config from within the container use `beet config -e`
 
 For a command prompt as user abc `docker exec -it -u abc beets bash`
 
-See [Beets][beetsurl] for more info.
+See [Beets][appurl] for more info.
 
 ## Info
 
