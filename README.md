@@ -84,6 +84,7 @@ See [Beets][appurl] for more info.
 
 ## Versions
 
++ **27.12.17:** Add beautifulsoup4 pip package.
 + **19.12.17:** Rebase to alpine 3.7.
 + **31.05.17:** Rebase to alpine 3.6.
 + **16.01.17:** Add packages required for replaygain.
